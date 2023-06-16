@@ -1,0 +1,319 @@
+/* Inicio estilo INDEX */
+#index{
+    background-image: url(../imagenes/fondo.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+/* Cabecera INDEX */
+#cabecera1{
+    padding-left: 10%;
+    padding-top: 25px;
+    padding-right: 10%;
+}
+#logo{
+    width: 100px;
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+}
+#logo:hover{
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+/* Menú INDEX */
+#navbarNav{
+    margin-left: 50%;
+}
+.navbar-toggler{
+    color: azure !important;
+    background-color: #c76300 !important;
+}
+#link1{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: right !important;
+    font-weight: bold;
+    --bs-nav-link-color: #ffffff !important;
+    --bs-nav-link-hover-color: #ff8100 !important;
+}
+#link1active{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ff8100 ;
+    color: azure;
+    text-align: end;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#link1active:hover{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ffffff ;
+    color: #c76300;
+    text-align: end;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* Contenido INDEX */
+#contenido1{
+    padding-top: 10%;
+    margin-bottom: 10%;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 70px;
+}
+#linea{
+    margin-left: 46% ;
+    color: inherit;
+    width: 55px;
+    background-color: #ff8100 !important;
+    border-color: #ff8100 !important;
+    border-top: 5px solid #ff8100 !important;
+    opacity: 1 !important;
+}
+.txt{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+    --bs-btn-color: azure !important;
+    --bs-btn-bg: #ff8100 !important;
+    --bs-btn-border-color: #ff8100 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #c76300 !important;
+    --bs-btn-hover-border-color: #c76300 !important;
+    padding: 15px !important;
+    border-radius: 25px !important;
+}
+/* Footer INDEX */
+#footer{
+    clear: both;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    color: azure;
+    background-color: #c76300;
+}
+#footer div ul{
+    list-style: none;
+    width: 230px;
+    margin: 0px auto;
+}
+#footer div ul li{
+    float: left;
+    margin-left: 10px;
+}
+#iconos{
+    width: 30px;
+    filter: grayscale(1);
+}
+#iconos:hover{
+    cursor: pointer;
+    filter: none;
+}
+/* Fin estilo INDEX */
+/* Inicio pagina ABOUT US */
+.body2{
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+	background-color: #292929;
+}
+#contenido2{
+	/* font-family: Cambria Italic; */
+	/*display: flex;*/
+    font-size: 20px;
+    margin-top: 45px;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+.boton2{
+	border: solid white; 
+	padding: 10px; 
+    font-weight: bold;
+    text-decoration: none;
+	background-color: white; 
+	color: black; 
+	border-radius: 50px;
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+}
+.boton2:hover{
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+/* Fin pagina ABOUT US */
+/* Inicio SERVICIOS */
+.container3{
+    text-align: center;
+ }
+.contenido3{
+    padding-left: 50px;
+    padding-right: 50px;
+
+ }
+ .imagen3{
+     width: 41px;
+     height: 30px;
+   
+ }
+ 
+ .p3{
+     color: rgb(0, 0, 0);
+     margin: auto;
+     padding-top: 3%;
+     text-align: center;
+ }
+ .tabla3 tr td{
+     color: rgb(0, 0, 0);
+     text-align: center;
+     padding: 20px;
+ 
+ }
+/* Fin SERVICIOS */
+/*Inicio del portafolio*/
+body{
+    background-color: gray;
+}
+.Ajuste_de_imagenes{
+    width: 110%;
+    height: 100%;
+    transition: all 1s ease;
+    overflow: hidden; 
+    margin-left: -3%;
+    border-color: blue;
+}
+.Posicionamiento_de_imagenes{
+    transition: all 1s ease;
+    overflow: hidden;
+    padding-right: 4%;
+    margin-top: 2px;
+}
+#Animacion_de_img1:hover .img1_hover {
+    filter: saturate(200%);
+    border-radius:30%;
+    -webkit-border-radius:100%;
+    box-shadow: 0px 0px 10px 10px blue;
+    -webkit-box-shadow: 0px 0px 10px 10px blue;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+#Animacion_de_img2:hover .img2_hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+#Animacion_de_img3:hover .img3_hover {
+    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    filter: opacity(.7);
+
+}
+#Animacion_de_img4:hover .img4_hover {
+    filter: blur(5px);
+    border-radius: 100px;
+    -webkit-transform: skewX(5deg);
+    transform: skewX(5deg);
+}
+#Animacion_de_img5:hover .img5_hover{
+    -webkit-transform:scale(0.8);
+    transform:scale(0.9);
+    filter: sepia(60%);
+    padding-right: 5%;
+}
+#Animacion_de_img6:hover .img6_hover{
+    filter: grayscale(100%);
+    border-radius: 100px;
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+}
+#link_menu{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: right !important;
+    font-weight: bold;
+    --bs-nav-link-color: black !important;
+    --bs-nav-link-hover-color: #ff8100 !important;
+}
+#Ajuste_del_contenido{
+    padding-bottom: 4%;
+}
+#navbarNav4{
+    margin-left: 50%;
+}
+/*fin del portafolio*/
+
+/*Comienzo formulario*/
+
+
+.small-table {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.btn-submit {
+    width: 100%;
+        background-color: #FF7F50;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 50px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+  }
+  
+  
+  .btn-submit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .contenidoo {
+    max-width: 150px;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .titu {
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+  }
+  textarea {
+    height: 150px; 
+    padding: 5px;
+    margin-top: 5px;
+  
+  }
+
+  .nav-link {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .nav-link.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+/*Fin formulario*/
